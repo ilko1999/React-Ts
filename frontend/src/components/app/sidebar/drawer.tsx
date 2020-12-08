@@ -23,7 +23,6 @@ function CreateDrawer() {
                     open={true}
                     classes={{ paper: classes.drawerPaper }}>
 
-
                     <List>
                         <Link to="/"
                             className={classes.link}>
@@ -76,5 +75,3 @@ function CreateDrawer() {
 }
 
 export default CreateDrawer;
-
-
